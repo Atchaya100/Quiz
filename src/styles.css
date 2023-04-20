@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+@import "src/assets/modules/portfolio.css";
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css';
+body{
+    margin: 0px;
+    padding:0px;
+    background-color: rgb(215, 209, 215);
+}
