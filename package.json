@@ -2,9 +2,9 @@
   "name": "portfolio",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
+    "ng": "node --max_old_space_size=4096 ./node_modules/.bin/ng"
     "start": "ng serve",
-    "build": "node --max_old_space_size=8192 ./node_modules/@angular/cli/bin/ng build --prod",
+    "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
