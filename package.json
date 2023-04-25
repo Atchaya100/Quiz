@@ -6,7 +6,7 @@
     "start": "ng serve",
 
     "build": "node --max_old_space_size=8192 ./node_modules/@angular/cli/bin/ng build --prod",
-   // "serve": "node --max_old_space_size=8192 ./node_modules/@angular/cli/bin/ng serve",
+    "serve": "node --max_old_space_size=8192 ./node_modules/@angular/cli/bin/ng serve",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
